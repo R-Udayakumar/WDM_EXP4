@@ -24,7 +24,6 @@ age_groups = {
     'Middle-aged': (visitor_df['Age'] > 30) & (visitor_df['Age'] <= 50),
     'Elderly': visitor_df['Age'] > 50
 }
-
 for group, condition in age_groups.items():  
     visitors_in_group = visitor_df[condition] 
     print(f"Visitors in {group} age group:")
@@ -37,7 +36,6 @@ for group, condition in age_groups.items():
 import matplotlib.pyplot as plt
 # Create a list to store counts of visitors in each age group
 visitor_counts=[]
-
 # Count visitors in each age group
 for group,condition in age_groups.items():
   visitors_in_group=visitor_df[condition]
