@@ -32,11 +32,9 @@ for group, condition in age_groups.items():
 ```
 ### Output:
 ![image](https://github.com/R-Udayakumar/WDM_EXP4/assets/118708024/8f91467e-4e96-47cf-a769-efb0131caa7f)
-
 ### Visualization:
 ```python
 import matplotlib.pyplot as plt
-
 # Create a list to store counts of visitors in each age group
 visitor_counts=[]
 
@@ -56,7 +54,5 @@ plt.show()
 ```
 ### Output:
 ![image](https://github.com/R-Udayakumar/WDM_EXP4/assets/118708024/86909513-5df9-48fb-80fc-fce597886cc8)
-
-
 ### Result:
 Thus, the cluster and visitor segmentation for navigation patterns was successfully implemented.
